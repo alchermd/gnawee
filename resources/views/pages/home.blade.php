@@ -21,10 +21,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli">
 
     <!-- Plugin CSS -->
-    <link rel="stylesheet" href="/css/device-mockups/device-mockups.css">
+    <link rel="stylesheet" href="{{ asset('css/device-mockups/device-mockups.css') }}">
 
     <!-- Custom styles for this template -->
-    <link href="/css/new-age.css" rel="stylesheet">
+    <link href="{{ asset('css/new-age.css') }}" rel="stylesheet">
 
 </head>
 
@@ -65,11 +65,11 @@
             </div>
             <div class="col-lg-5 my-auto">
                 <div class="device-container">
-                    <div class="device-mockup iphone6_plus portrait white">
+                    <div class="device-mockup ipad_pro portrait white">
                         <div class="device">
                             <div class="screen">
                                 <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
+                                <img src="{{ asset('img/demo-screen-1.jpg') }}" class="img-fluid" alt="">
                             </div>
                             <div class="button">
                                 <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -89,8 +89,8 @@
                 <h2 class="section-heading">Discover what all the buzz is about!</h2>
                 <p>Our app is available on any mobile device! Download now to get started!</p>
                 <div class="badges">
-                    <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
-                    <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
+                    <a class="badge-link" href="#"><img src="{{ asset('img/google-play-badge.svg') }}" alt=""></a>
+                    <a class="badge-link" href="#"><img src="{{ asset('img/app-store-badge.svg') }}" alt=""></a>
                 </div>
             </div>
         </div>
@@ -107,11 +107,11 @@
         <div class="row">
             <div class="col-lg-4 my-auto">
                 <div class="device-container">
-                    <div class="device-mockup iphone6_plus portrait white">
+                    <div class="device-mockup ipad_pro portrait white">
                         <div class="device">
                             <div class="screen">
                                 <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
+                                <img src="{{ asset('img/demo-screen-1.jpg') }}" class="img-fluid" alt="">
                             </div>
                             <div class="button">
                                 <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -221,7 +221,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
 
 <!-- Custom scripts for this template -->
-<script src="/js/new-age.js"></script>
+<script src="{{ asset('js/new-age.js') }}"></script>
 
 </body>
 
