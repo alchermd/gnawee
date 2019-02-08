@@ -90,12 +90,19 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 mx-auto">
-                <h2 class="section-heading">Discover what all the buzz is about!</h2>
-                <p>Our app is available on any mobile device! Download now to get started!</p>
-                <div class="badges">
-                    <a class="badge-link" href="#"><img src="{{ asset('img/google-play-badge.svg') }}" alt=""></a>
-                    <a class="badge-link" href="#"><img src="{{ asset('img/app-store-badge.svg') }}" alt=""></a>
-                </div>
+                <h2 class="section-heading mb-5">Get started working on your idea in <u>minutes</u></h2>
+
+                <ul class="fa-ul text-left lead mb-5">
+                    <li class="mb-4">
+                        <span class="fa-li"><i class="fas fa-arrow-right text-success"></i></span> Follow the <a href="https://github.com/alchermd/gnawee" class="text-primary">Github repository</a> instructions. (Recommended)
+                    </li>
+
+                    <li>
+                        <span class="fa-li"><i class="fas fa-arrow-right text-success"></i></span> Clone the repository directly below to get started:
+                    </li>
+                </ul>
+
+                <kbd class="p-3 lead">https://github.com/alchermd/gnawee.git</kbd>
             </div>
         </div>
     </div>
