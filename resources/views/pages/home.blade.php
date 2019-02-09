@@ -90,11 +90,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 mx-auto">
-                <h2 class="section-heading mb-5">Get started working on your idea in <u>minutes</u></h2>
+                <h2 class="section-heading mb-3">Get started working on your idea in <u>minutes</u></h2>
 
-                <ul class="fa-ul text-left lead mb-5">
+                <ul class="fa-ul text-left lead mb-4">
                     <li class="mb-4">
-                        <span class="fa-li"><i class="fas fa-arrow-right text-success"></i></span> Follow the <a href="https://github.com/alchermd/gnawee" class="text-primary">Github repository</a> instructions. (Recommended)
+                        <span class="fa-li"><i class="fas fa-arrow-right text-success"></i></span> Follow the <a href="https://github.com/alchermd/gnawee" class="text-primary" target="_blank">Github repository <i class="fas fa-external-link-alt"></i></a> instructions. (Recommended)
                     </li>
 
                     <li>
@@ -102,7 +102,13 @@
                     </li>
                 </ul>
 
-                <kbd class="p-3 lead">https://github.com/alchermd/gnawee.git</kbd>
+                <kbd class="p-3 lead mb-6">https://github.com/alchermd/gnawee.git</kbd>
+
+                <ul class="fa-ul text-left lead mt-5">
+                    <li class="mb-4">
+                        <span class="fa-li"><i class="fas fa-check-circle text-success"></i></span> Or, take an overview of the features on the <a class="text-primary js-scroll-trigger" href="#features">next section.</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
