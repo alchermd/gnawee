@@ -183,8 +183,8 @@
 <section class="cta">
     <div class="cta-content">
         <div class="container">
-            <h2>Stop waiting.<br>Start building.</h2>
-            <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
+            <h2>Start working<br> on your idea.</h2>
+            <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
         </div>
     </div>
     <div class="overlay"></div>
@@ -192,23 +192,22 @@
 
 <section class="contact bg-primary" id="contact">
     <div class="container">
-        <h2>We
-            <i class="fas fa-heart"></i>
-            new friends!</h2>
+        <h2>I'd love to hear from you!</h2>
+
         <ul class="list-inline list-social">
+            <li class="list-inline-item social-github">
+                <a href="https://github.com/alchermd">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
             <li class="list-inline-item social-twitter">
-                <a href="#">
+                <a href="https://twitter.com/alchermd">
                     <i class="fab fa-twitter"></i>
                 </a>
             </li>
-            <li class="list-inline-item social-facebook">
-                <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-            </li>
-            <li class="list-inline-item social-google-plus">
-                <a href="#">
-                    <i class="fab fa-google-plus-g"></i>
+            <li class="list-inline-item social-johnalcher">
+                <a href="https://johnalcher.me">
+                    <i class="fa fa-home"></i>
                 </a>
             </li>
         </ul>
@@ -217,7 +216,7 @@
 
 <footer>
     <div class="container">
-        <p>&copy; Your Website 2019. All Rights Reserved.</p>
+        <p>&copy; John Alcher Doloiras 2019. All Rights Reserved.</p>
         <ul class="list-inline">
             <li class="list-inline-item">
                 <a href="#">Privacy</a>
