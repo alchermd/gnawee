@@ -34,12 +34,14 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Gnawee</a>
+
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i class="fas fa-bars"></i>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto" id="scrollspyItems">
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#download">Download</a>
                 </li>
@@ -48,6 +50,17 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                </li>
+            </ul>
+
+            <div class="dropdown-divider"></div>
+
+            <ul class="navbar-nav ml-lg-4">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('register') }}">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('login') }}">Login</a>
                 </li>
             </ul>
         </div>
@@ -60,7 +73,7 @@
             <div class="col-lg-7 my-auto">
                 <div class="header-content mx-auto">
                     <h1 class="mb-5">
-                        <span class="display-1">Gnawee</span>
+                        <span class="display-2">Gnawee</span>
                         <br> Landing Page + <br>
                         Admin Panel for your next Laravel project.
                     </h1>
@@ -102,7 +115,7 @@
                     </li>
                 </ul>
 
-                <kbd class="p-3 lead mb-6">https://github.com/alchermd/gnawee.git</kbd>
+                <kbd class="p-3 mb-6">https://github.com/alchermd/gnawee.git</kbd>
 
                 <ul class="fa-ul text-left lead mt-5">
                     <li class="mb-4">
