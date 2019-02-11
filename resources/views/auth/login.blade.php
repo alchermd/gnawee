@@ -16,6 +16,12 @@
                         <div class="col-lg-6">
                             <div class="p-5">
                                 <div class="text-center">
+                                    <p class="text-left mb-4">
+                                        <a href="javascript:history.back()">
+                                            <span class="fa fa-arrow-left"></span> Go Back
+                                        </a>
+                                    </p>
+
                                     <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
                                 </div>
                                 <form class="user" method="POST" action="{{ route('login') }}">
