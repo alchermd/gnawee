@@ -7,4 +7,4 @@ Auth::routes();
 
 Route::view('/', 'pages.home')->name('pages.home');
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/dashboard', 'Dashboard\Actions\ShowHomePage')->name('dashboard.home');
