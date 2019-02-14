@@ -226,4 +226,8 @@ return [
 
     ],
 
+    /** Gnawee Specific Configuration */
+
+    // The name of the application author/developer.
+    'author' => env('APP_AUTHOR', 'Gnawee'),
 ];

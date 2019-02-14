@@ -29,4 +29,14 @@ class ForgotPasswordController extends Controller
     {
         $this->middleware('guest');
     }
+
+    /**
+     * Where to redirect users after registration.
+     *
+     * @return  string
+     */
+    protected function redirectTo()
+    {
+        return route('dashboard.home');
+    }
 }
