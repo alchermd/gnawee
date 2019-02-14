@@ -2,6 +2,7 @@
 
 namespace Tests\Feature;
 
+use App\User;
 use Tests\TestCase;
 
 class StaticPagesTest extends TestCase
@@ -12,5 +13,13 @@ class StaticPagesTest extends TestCase
         $this->get(route('pages.home'))
             ->assertOk()
             ->assertSee('Gnawee');
+    }
+
+    /** @test */
+    public function authenticated_users_cant_visit_the_home_page()
+    {
+        $this->actingAs(factory(User::class)->create())
+            ->get(route('pages.home'))
+            ->assertRedirect(route('dashboard.home'));
     }
 }
