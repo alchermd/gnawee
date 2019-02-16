@@ -14,3 +14,4 @@ require('./bootstrap');
  */
 
 require('./components/ServerDateCard');
+require('./components/ClientTimeCard');
