@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Gnawee - Laravel Starter Project">
     <meta name="author" content="John Alcher Doloiras">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>Gnawee - Laravel Starter Project | @yield('title')</title>
 
