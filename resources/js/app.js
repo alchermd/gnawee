@@ -15,3 +15,4 @@ require('./bootstrap');
 
 require('./components/ServerDateCard');
 require('./components/ClientTimeCard');
+require('./components/ServerMotdCard');
