@@ -18,4 +18,17 @@ class ExampleApiTest extends TestCase
                 ]
             ]);
     }
+
+    /** @test */
+    public function the_server_motd_endpoints_returns_the_correct_schema()
+    {
+        $this->get(route('server.motd'))
+            ->assertJsonStructure([
+                'data' => [
+                    'server' => [
+                        'motd'
+                    ]
+                ]
+            ]);
+    }
 }
