@@ -52,9 +52,22 @@
                     </div>
                     <!-- Card Body -->
                     <div class="card-body">
-                        <p>Determining whether the typeface works or not is only possible if there is text for it to be applied to. This text is only here to validate the page layout. It isn't worth reading. You are currently reading some filler text. It is useful for web designers to use placeholder text so they can easily see what different fonts look like on a realistic paragraph.</p>
+                        <p>
+                            This dashboard panel uses the
+                            <a href="https://github.com/BlackrockDigital/startbootstrap-sb-admin-2">SB Admin 2</a>
+                            template, with <a href="https://reactjs.org">React</a> powered cards (the ones above) as an
+                            example. These cards connect to an example API defined in the <code>/routes/api.php</code>
+                            file. The React components are stored in the <code>/resources/js/components</code>
+                            directory and are compiled by <a href="https://laravel.com/docs/mix">Laravel Mix</a>. Feel
+                            free to customize these cards and/or routes to your needs.
+                        </p>
 
-                        <p>This is just temporary placeholder text; kind of like when a friend saves a spot for you in line, only to be replaced by you when you arrive. You are currently reading text that is written in English, not any other language. Web Designers use filler text so they can focus on design. It will be replaced with real content before handover.</p>
+                        <p>
+                            This is just temporary placeholder text; kind of like when a friend saves a spot for you in
+                            line, only to be replaced by you when you arrive. You are currently reading text that is
+                            written in English, not any other language. Web Designers use filler text so they can focus
+                            on design. It will be replaced with real content before handover.
+                        </p>
                     </div>
                 </div>
             </div>
