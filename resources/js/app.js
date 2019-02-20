@@ -1,4 +1,3 @@
-
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes React and other helpers. It's a great starting point while
@@ -16,3 +15,4 @@ require('./bootstrap');
 require('./components/ServerDateCard');
 require('./components/ClientTimeCard');
 require('./components/ServerMotdCard');
+require('./components/VisitorCounterCard');
