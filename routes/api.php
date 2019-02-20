@@ -1,18 +1,37 @@
 <?php
 
-use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\Redis;
+use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| API Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register API routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| is assigned the "api" middleware group. Enjoy building your API!
-|
-*/
+Route::prefix('server')->group(function () {
+    Route::get('date', function () {
+        return [
+            'data' => [
+                'server' => [
+                    'date' => now()->toDateString()
+                ]
+            ]
+        ];
+    })->name('server.date');
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+    Route::get('motd', function () {
+        Artisan::call('inspire');
+
+        return [
+            'data' => [
+                'server' => [
+                    'motd' => Artisan::output()
+                ]
+            ]
+        ];
+    })->name('server.motd');
 });
+
+Route::get('/visits', function () {
+    return [
+        'data' => [
+            'visits' => Redis::get('visits') ?? 0
+        ]
+    ];
+})->name('visits');

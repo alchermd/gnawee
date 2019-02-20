@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Gnawee - Laravel Starter Project">
     <meta name="author" content="John Alcher Doloiras">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>Gnawee - Laravel Starter Project | @yield('title')</title>
 
@@ -66,6 +67,8 @@
 <!-- Custom scripts for all pages-->
 <script src="{{ asset('js/sb-admin-2.js') }}"></script>
 
+{{-- Compiled JavaScript --}}
+<script src="{{ asset('js/app.js') }}"></script>
 </body>
 
 </html>

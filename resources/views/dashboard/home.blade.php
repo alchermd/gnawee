@@ -16,90 +16,13 @@
 
         <!-- Content Row -->
         <div class="row">
+            <div class="col-xl-3 col-md-6 mb-4" id="server-date-card"></div>
 
-            <!-- Earnings (Monthly) Card Example -->
-            <div class="col-xl-3 col-md-6 mb-4">
-                <div class="card border-left-primary shadow h-100 py-2">
-                    <div class="card-body">
-                        <div class="row no-gutters align-items-center">
-                            <div class="col mr-2">
-                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Earnings
-                                    (Monthly)
-                                </div>
-                                <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
-                            </div>
-                            <div class="col-auto">
-                                <i class="fas fa-calendar fa-2x text-gray-300"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="col-xl-3 col-md-6 mb-4" id="client-time-card"></div>
 
-            <!-- Earnings (Monthly) Card Example -->
-            <div class="col-xl-3 col-md-6 mb-4">
-                <div class="card border-left-success shadow h-100 py-2">
-                    <div class="card-body">
-                        <div class="row no-gutters align-items-center">
-                            <div class="col mr-2">
-                                <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Earnings
-                                    (Annual)
-                                </div>
-                                <div class="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
-                            </div>
-                            <div class="col-auto">
-                                <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="col-xl-3 col-md-6 mb-4" id="server-motd-card"></div>
 
-            <!-- Earnings (Monthly) Card Example -->
-            <div class="col-xl-3 col-md-6 mb-4">
-                <div class="card border-left-info shadow h-100 py-2">
-                    <div class="card-body">
-                        <div class="row no-gutters align-items-center">
-                            <div class="col mr-2">
-                                <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Tasks</div>
-                                <div class="row no-gutters align-items-center">
-                                    <div class="col-auto">
-                                        <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">50%</div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="progress progress-sm mr-2">
-                                            <div class="progress-bar bg-info" role="progressbar" style="width: 50%"
-                                                 aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-auto">
-                                <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Pending Requests Card Example -->
-            <div class="col-xl-3 col-md-6 mb-4">
-                <div class="card border-left-warning shadow h-100 py-2">
-                    <div class="card-body">
-                        <div class="row no-gutters align-items-center">
-                            <div class="col mr-2">
-                                <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Pending
-                                    Requests
-                                </div>
-                                <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
-                            </div>
-                            <div class="col-auto">
-                                <i class="fas fa-comments fa-2x text-gray-300"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="col-xl-3 col-md-6 mb-4" id="visitor-counter-card"></div>
         </div>
 
         <!-- Content Row -->
@@ -129,9 +52,22 @@
                     </div>
                     <!-- Card Body -->
                     <div class="card-body">
-                        <p>Determining whether the typeface works or not is only possible if there is text for it to be applied to. This text is only here to validate the page layout. It isn't worth reading. You are currently reading some filler text. It is useful for web designers to use placeholder text so they can easily see what different fonts look like on a realistic paragraph.</p>
+                        <p>
+                            This dashboard panel uses the
+                            <a href="https://github.com/BlackrockDigital/startbootstrap-sb-admin-2">SB Admin 2</a>
+                            template, with <a href="https://reactjs.org">React</a> powered cards (the ones above) as an
+                            example. These cards connect to an example API defined in the <code>/routes/api.php</code>
+                            file. The React components are stored in the <code>/resources/js/components</code>
+                            directory and are compiled by <a href="https://laravel.com/docs/mix">Laravel Mix</a>. Feel
+                            free to customize these cards and/or routes to your needs.
+                        </p>
 
-                        <p>This is just temporary placeholder text; kind of like when a friend saves a spot for you in line, only to be replaced by you when you arrive. You are currently reading text that is written in English, not any other language. Web Designers use filler text so they can focus on design. It will be replaced with real content before handover.</p>
+                        <p>
+                            This is just temporary placeholder text; kind of like when a friend saves a spot for you in
+                            line, only to be replaced by you when you arrive. You are currently reading text that is
+                            written in English, not any other language. Web Designers use filler text so they can focus
+                            on design. It will be replaced with real content before handover.
+                        </p>
                     </div>
                 </div>
             </div>
