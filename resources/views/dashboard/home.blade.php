@@ -35,21 +35,8 @@
                     <!-- Card Header - Dropdown -->
                     <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                         <h6 class="m-0 font-weight-bold text-primary">Getting Started</h6>
-                        <div class="dropdown no-arrow">
-                            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
-                                 aria-labelledby="dropdownMenuLink">
-                                <div class="dropdown-header">Dropdown Header:</div>
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </div>
                     </div>
+
                     <!-- Card Body -->
                     <div class="card-body">
                         <p>
@@ -63,48 +50,51 @@
                         </p>
 
                         <p>
-                            This is just temporary placeholder text; kind of like when a friend saves a spot for you in
-                            line, only to be replaced by you when you arrive. You are currently reading text that is
-                            written in English, not any other language. Web Designers use filler text so they can focus
-                            on design. It will be replaced with real content before handover.
+                            Aside from that, you can refer to the documentation of each components (they are all open
+                            sourced) to customize and extend them as you see fit. Click the module you are interested
+                            to with at the sidebar on the left to see related links and resources to help you better
+                            understand that component.
+                        </p>
+
+                        <p>
+                            At any rate, the core of this project is still good-ol' <em>vanilla Laravel</em> and
+                            ReactJS,
+                            so the canonical documentation will be at <a href="https://laravel.com/docs/5.7">Laravel</a>
+                            and <a href="https://reactjs.org/docs/">ReactJS</a>.
                         </p>
                     </div>
                 </div>
             </div>
 
-            <!-- Pie Chart -->
             <div class="col-xl-4 col-lg-5">
                 <div class="card shadow mb-4">
-                    <!-- Card Header - Dropdown -->
+                    <!-- Card Header -->
                     <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                         <h6 class="m-0 font-weight-bold text-primary">Technologies Used</h6>
-                        <div class="dropdown no-arrow">
-                            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
-                                 aria-labelledby="dropdownMenuLink">
-                                <div class="dropdown-header">Dropdown Header:</div>
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </div>
                     </div>
+
                     <!-- Card Body -->
                     <div class="card-body">
                         <p>
-                            At some point someone will replace this block of text with useful words so visitors can learn more about your services/products offered by the website!
+                            At a glance, Gnawee includes the following open-source technologies:
                         </p>
 
                         <ul>
-                            <li>PHP</li>
-                            <li>Laravel</li>
-                            <li>MySQL</li>
-                            <li>Docker</li>
-                            <li>React</li>
+                            <li>
+                                <a href="https://php.net">PHP</a>
+                            </li>
+                            <li>
+                                <a href="https://laravel.com">Laravel</a>
+                            </li>
+                            <li>
+                                <a href="https://www.mysql.com/">MySQL</a>
+                            </li>
+                            <li>
+                                <a href="https://www.docker.com/">Docker</a>
+                            </li>
+                            <li>
+                                <a href="https://reactjs.org">ReactJS</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
