@@ -35,8 +35,12 @@
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-                <a class="collapse-item" href="#">Documentation</a>
-                <a class="collapse-item" href="#">Customization</a>
+                <a class="collapse-item" href="https://blackrockdigital.github.io/startbootstrap-new-age/">
+                    Original Live Demo
+                </a>
+                <a class="collapse-item" href="https://github.com/BlackrockDigital/startbootstrap-new-age">
+                    Github Repository
+                </a>
             </div>
         </div>
     </li>
@@ -49,8 +53,12 @@
         </a>
         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-                <a class="collapse-item" href="#">Documentation</a>
-                <a class="collapse-item" href="#">Customization</a>
+                <a class="collapse-item" href="https://blackrockdigital.github.io/startbootstrap-sb-admin-2/">
+                    Original Live Demo
+                </a>
+                <a class="collapse-item" href="https://github.com/BlackrockDigital/startbootstrap-sb-admin-2">
+                    Github Repository
+                </a>
             </div>
         </div>
     </li>
@@ -71,22 +79,9 @@
         </a>
         <div id="collapseAuthentication" class="collapse" aria-labelledby="headingAuthentication" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-                <a class="collapse-item" href="#">Documentation</a>
-                <a class="collapse-item" href="#">Customization</a>
-            </div>
-        </div>
-    </li>
-
-    <!-- Nav Item - Authorization Collapse Menu -->
-    <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseAuthorization" aria-expanded="true" aria-controls="collapseAuthorization">
-            <i class="fas fa-fw fa-users"></i>
-            <span>Authorization</span>
-        </a>
-        <div id="collapseAuthorization" class="collapse" aria-labelledby="headingAuthorization" data-parent="#accordionSidebar">
-            <div class="bg-white py-2 collapse-inner rounded">
-                <a class="collapse-item" href="#">Documentation</a>
-                <a class="collapse-item" href="#">Customization</a>
+                <a class="collapse-item" href="https://www.laravel.com/docs/5.7/authentication">
+                    Laravel Docs
+                </a>
             </div>
         </div>
     </li>
@@ -99,8 +94,12 @@
         </a>
         <div id="collapseDocker" class="collapse" aria-labelledby="headingDocker" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-                <a class="collapse-item" href="#">Documentation</a>
-                <a class="collapse-item" href="#">Customization</a>
+                <a class="collapse-item" href="https://vessel.shippingdocker.com/">
+                    Vessel Docs
+                </a>
+                <a class="collapse-item" href="https://vessel.shippingdocker.com/docs/everyday-usage/">
+                    Common Commands
+                </a>
             </div>
         </div>
     </li>
