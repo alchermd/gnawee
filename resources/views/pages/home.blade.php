@@ -11,11 +11,14 @@
     <title>Gnawee - Laravel Starter Project</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
     <!-- Custom fonts for this template -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli">
@@ -35,7 +38,9 @@
     <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Gnawee</a>
 
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
             Menu
             <i class="fas fa-bars"></i>
         </button>
@@ -107,11 +112,14 @@
 
                 <ul class="fa-ul text-left lead mb-4">
                     <li class="mb-4">
-                        <span class="fa-li"><i class="fas fa-arrow-right text-success"></i></span> Follow the <a href="https://github.com/alchermd/gnawee" class="text-primary" target="_blank">Github repository <i class="fas fa-external-link-alt"></i></a> instructions. (Recommended)
+                        <span class="fa-li"><i class="fas fa-arrow-right text-success"></i></span> Follow the <a
+                                href="https://github.com/alchermd/gnawee" class="text-primary" target="_blank">Github
+                            repository <i class="fas fa-external-link-alt"></i></a> instructions. (Recommended)
                     </li>
 
                     <li>
-                        <span class="fa-li"><i class="fas fa-arrow-right text-success"></i></span> Clone the repository directly below to get started:
+                        <span class="fa-li"><i class="fas fa-arrow-right text-success"></i></span> Clone the repository
+                        directly below to get started:
                     </li>
                 </ul>
 
@@ -119,7 +127,16 @@
 
                 <ul class="fa-ul text-left lead mt-5">
                     <li class="mb-4">
-                        <span class="fa-li"><i class="fas fa-check-circle text-success"></i></span> Or, take an overview of the features on the <a class="text-primary js-scroll-trigger" href="#features">next section.</a>
+                        <span class="fa-li"><i class="fas fa-lock text-success"></i></span>
+                        Want to snoop around? Try the
+                        <a class="text-primary" href="{{ route('register') }}">registration</a> or
+                        <a class="text-primary" href="{{ route('login') }}">login page</a>.
+                    </li>
+
+                    <li class="mb-4">
+                        <span class="fa-li"><i class="fas fa-check-circle text-success"></i></span> Or, take an overview
+                        of the features on the <a class="text-primary js-scroll-trigger" href="#features">next
+                            section.</a>
                     </li>
                 </ul>
             </div>
@@ -157,7 +174,8 @@
                                 <i class="icon-lock text-primary"></i>
                                 <h3>Authentication</h3>
                                 <p class="text-muted">
-                                    Laravel's <a href="http://laravel.com/docs/authentication">default authentication</a> hooked up with an admin panel.
+                                    Laravel's <a href="http://laravel.com/docs/authentication">default
+                                        authentication</a> hooked up with an admin panel.
                                 </p>
                             </div>
                         </div>
@@ -172,9 +190,11 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="feature-item">
-                                <i class="icon-people text-primary"></i>
-                                <h3>Authorization</h3>
-                                <p class="text-muted">Roles and permissions with no external package required.</p>
+                                <i class="icon-layers text-primary"></i>
+                                <h3>Easy Setup</h3>
+                                <p class="text-muted">
+                                    Start with <code>php artisan serve</code> or use Vessel to easily run Docker.
+                                </p>
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -182,7 +202,10 @@
                                 <i class="icon-wallet text-primary"></i>
                                 <h3>Open Source</h3>
                                 <p class="text-muted">
-                                    Free to use with optional premium support <a href="#">available.</a>
+                                    Free to use with optional premium support
+                                    <a href="https://johnalcher.me/contact?message=So%20about%20premium%20support%20for%20Gnawee">
+                                        available.
+                                    </a>
                                 </p>
                             </div>
                         </div>
@@ -245,9 +268,14 @@
 </footer>
 
 <!-- Bootstrap core JavaScript -->
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
 
 <!-- Plugin JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
