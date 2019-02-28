@@ -127,6 +127,13 @@
 
                 <ul class="fa-ul text-left lead mt-5">
                     <li class="mb-4">
+                        <span class="fa-li"><i class="fas fa-lock text-success"></i></span>
+                        Want to snoop around? Try the
+                        <a class="text-primary" href="{{ route('register') }}">registration</a> or
+                        <a class="text-primary" href="{{ route('login') }}">login page</a>.
+                    </li>
+
+                    <li class="mb-4">
                         <span class="fa-li"><i class="fas fa-check-circle text-success"></i></span> Or, take an overview
                         of the features on the <a class="text-primary js-scroll-trigger" href="#features">next
                             section.</a>
